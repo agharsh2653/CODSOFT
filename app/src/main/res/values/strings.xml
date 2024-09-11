@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">QuizApp2</string>
+    <string name="start_quiz">Start Quiz</string>
+    <string name="logo_image_description">logo image description</string>
+</resources>

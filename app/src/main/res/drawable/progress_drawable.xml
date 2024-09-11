@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Background circle (track of the progress) -->
+    <item android:id="@android:id/background">
+        <shape android:shape="ring"
+            android:thickness="10dp"
+            android:useLevel="false">
+            <solid android:color="#D3D3D3"/> <!-- Light grey background -->
+        </shape>
+    </item>
+
+    <!-- Progress bar for incorrect answers (red) -->
+    <item android:id="@android:id/secondaryProgress">
+        <rotate
+            android:fromDegrees="270"
+            android:pivotX="50%"
+            android:pivotY="50%"
+            android:toDegrees="270">
+        <shape android:shape="ring"
+            android:thickness="10dp"
+            android:useLevel="true">
+            <solid android:color="#DD2C00"/> <!-- Red for incorrect answers -->
+        </shape>
+        </rotate>
+    </item>
+
+    <!-- Progress bar for correct answers (green) -->
+    <item android:id="@android:id/progress">
+        <rotate
+            android:fromDegrees="270"
+            android:pivotX="50%"
+            android:pivotY="50%"
+            android:toDegrees="270">
+
+            <shape android:shape="ring"
+            android:thickness="10dp"
+            android:useLevel="true">
+
+               <solid android:color="#00C833"/> <!-- Green for correct answers -->
+        </shape>
+        </rotate>
+    </item>
+</layer-list>

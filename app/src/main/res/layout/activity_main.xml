@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient_background"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/logo_layout">
+
+
+        <ImageView
+            android:id="@+id/quiz"
+            android:layout_width="180dp"
+            android:layout_height="105dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="25dp"
+            android:adjustViewBounds="true"
+
+            android:src="@drawable/quiz_image21" />
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="105dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="25dp"
+            android:adjustViewBounds="true"
+            android:layout_alignRight="@+id/quiz"
+            android:src="@drawable/time_image" />
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/logo_layout"
+        android:text="Choose Topic"
+        android:id="@+id/chooseTopic"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="20dp"
+        android:textColor="#99FFFFFF" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/chooseTopic"
+        android:orientation="horizontal"
+        android:id="@+id/layout1"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_weight="2">
+        <LinearLayout
+            android:id="@+id/JavaLayout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="20dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/round_back_white10"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/java"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Java"
+                android:layout_marginTop="8dp"
+                android:textColor="#CC000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/phpLayout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="20dp"
+            android:layout_marginStart="5dp"
+            android:background="@drawable/round_back_white10"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/php_icon"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Php"
+                android:layout_marginTop="8dp"
+                android:textColor="#CC000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/layout2"
+        android:layout_below="@+id/layout1"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_weight="2">
+        <LinearLayout
+            android:id="@+id/HtmlLayout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="20dp"
+            android:layout_marginEnd="5dp"
+            android:background="@drawable/round_back_white10"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/html_icon"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="HTML"
+                android:layout_marginTop="8dp"
+                android:textColor="#CC000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/androidLayout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="20dp"
+            android:layout_marginStart="5dp"
+            android:background="@drawable/round_back_white10"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/android_icon"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Android"
+                android:layout_marginTop="8dp"
+                android:textColor="#CC000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/startQuizBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start quiz"
+        android:layout_below="@id/layout2"
+        android:layout_marginTop="50dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:textSize="16sp"
+        android:background="@drawable/round_back_green20"/>
+
+</RelativeLayout>
