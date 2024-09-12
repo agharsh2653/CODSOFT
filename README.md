@@ -4,7 +4,7 @@ A Quiz Android application 📱 built using Java ♨️
 
 ## ❤️ Try App
 ## Scan QR Code
- <img src="https://raw.githubusercontent.com/pikachu404/Quiz-App/master/screenshots/qrCodeForApk.png"
+ <img src="https://github.com/agharsh2653/CODSOFT/blob/QuizApp2/Screanshot/qrforQuizAppapk.png"
 width="200" height="200"> 
 ---------------
 ### Get Apk [Download here](https://drive.google.com/file/d/1WXNeaF4_xUU1JlxkBym1c5zFzMieJzId/view?usp=sharing)
