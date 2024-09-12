@@ -1,5 +1,5 @@
 ## Quiz App
-A Quiz Android application 📱 built using Java ♨️ and showing best practices of 🛠️ Room
+A Quiz Android application 📱 built using Java ♨️ 
 -------------------
 
 ## ❤️ Try App
@@ -15,7 +15,7 @@ width="200" height="200">
 
 ## 🚀 Technology Used
 
-* Quiz App is build using Java
+* Quiz App is build using Java, xml
 
 
 
