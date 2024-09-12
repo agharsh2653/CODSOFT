@@ -21,10 +21,10 @@ width="200" height="200">
 
 ## 📸 Screenshots
 
-|                             |||
-|:---------------------------:|:-----------------------------------------:|:-----------------------------------------: |
-| ![Imgur](screenshots/0.png) | ![Imgur](screenshots/1.png) | ![Imgur](screenshots/2.png) |
-| ![Imgur](screenshots/3.png) | ![Imgur](screenshots/4.png) | ![Imgur](screenshots/5.png) |
+|                            |                            |                            |
+|:--------------------------:|:--------------------------:|:--------------------------:|
+| ![Imgur](Screanshot/0.png) | ![Imgur](Screanshot/1.png) | ![Imgur](Screanshot/2.png) |
+| ![Imgur](Screanshot/3.png) | ![Imgur](Screanshot/4.png) | ![Imgur](Screanshot/5.png) |
 
 ## ⚡ Dependencies Used
 ```sh
