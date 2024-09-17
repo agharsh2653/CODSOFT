@@ -1,0 +1,29 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Notes" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="floatingActionButtonStyle">@style/FloatingActionButtonStyle</item>
+        <item name="colorPrimary">@color/dark_green</item>
+        <item name="colorPrimaryDark">@color/dark_green</item>
+        <item name="colorAccent">@android:color/white</item>
+    </style>
+    
+    <style name="FloatingActionButtonStyle" parent="Widget.Design.FloatingActionButton">
+        <item name="shapeAppearanceOverlay">@style/FabShapeStyle1</item>
+    </style>
+
+    <style name="Theme.Notes" parent="Base.Theme.Notes" />
+    <style name="FabShapeStyle1" parent="ShapeAppearance.MaterialComponents.LargeComponent">
+        <item name="cornerSize" type="drawable">50%</item>
+        <item name="cornerFamilyTopLeft" type="drawable">rounded</item>
+        <item name="cornerFamilyTopRight" type="drawable">rounded</item>
+        <item name="cornerFamilyBottomLeft" type="drawable">rounded</item>
+        <item name="cornerFamilyBottomRight" type="drawable">rounded</item>
+    </style>
+    <style name="DialogStyle" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowSoftInputMode">adjustResize</item>
+    </style>
+</resources>
